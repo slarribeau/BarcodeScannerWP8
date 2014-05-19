@@ -17,6 +17,7 @@ Installation
 Using CLI:
 * cordova plugin add org.bloxlab.barcodescanner (or substitute org.bloxlab.barcodescanner with https://github.com/bloxlab/BarcodeScannerWP8.git)
 * cordova build wp8
+* NOTE: If you see compile errors related to 'type or namespace "ZXing" could not be found', then right-click on Resources folder in Visual Studio Solution Explorer. From the menu select "Manage NuGet Packages..." and download ZXing.Net from Michael Jahn.
 
 
 Usage
